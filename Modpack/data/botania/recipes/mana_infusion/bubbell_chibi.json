@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "botania:bubbell"
+  },
+  "output": {
+    "item": "botania:bubbell_chibi"
+  },
+  "mana": 2500,
+  "group": "botania:flower_shrinking",
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

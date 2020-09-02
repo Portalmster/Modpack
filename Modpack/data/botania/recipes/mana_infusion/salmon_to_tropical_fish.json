@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:salmon"
+  },
+  "output": {
+    "item": "minecraft:tropical_fish"
+  },
+  "mana": 200,
+  "group": "botania:fish_cycle",
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

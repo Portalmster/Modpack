@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:dandelion"
+  },
+  "output": {
+    "item": "minecraft:poppy"
+  },
+  "mana": 400,
+  "group": "botania:flower_cycle",
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

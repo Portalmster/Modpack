@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "mcp/mobius/waila/mixin/client/MixinGameRenderer": {
+      "Lnet/minecraft/client/gui/hud/InGameHud;render(Lnet/minecraft/client/util/math/MatrixStack;F)V": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V",
+      "render": "Lnet/minecraft/class_757;method_3192(FJZ)V"
+    },
+    "mcp/mobius/waila/mixin/client/MixinItemStack": {
+      "getTooltip": "Lnet/minecraft/class_1799;method_7950(Lnet/minecraft/class_1657;Lnet/minecraft/class_1836;)Ljava/util/List;"
+    },
+    "mcp/mobius/waila/mixin/client/MixinMinecraftClient": {
+      "handleInputEvents": "Lnet/minecraft/class_310;method_1508()V",
+      "Lnet/minecraft/client/gui/hud/InGameHud;tick()V": "Lnet/minecraft/class_329;method_1748()V",
+      "tick": "Lnet/minecraft/class_310;method_1574()V"
+    },
+    "mcp/mobius/waila/mixin/server/MixinPlayerManager": {
+      "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "mcp/mobius/waila/mixin/client/MixinGameRenderer": {
+        "Lnet/minecraft/client/gui/hud/InGameHud;render(Lnet/minecraft/client/util/math/MatrixStack;F)V": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V",
+        "render": "Lnet/minecraft/class_757;method_3192(FJZ)V"
+      },
+      "mcp/mobius/waila/mixin/client/MixinItemStack": {
+        "getTooltip": "Lnet/minecraft/class_1799;method_7950(Lnet/minecraft/class_1657;Lnet/minecraft/class_1836;)Ljava/util/List;"
+      },
+      "mcp/mobius/waila/mixin/client/MixinMinecraftClient": {
+        "handleInputEvents": "Lnet/minecraft/class_310;method_1508()V",
+        "Lnet/minecraft/client/gui/hud/InGameHud;tick()V": "Lnet/minecraft/class_329;method_1748()V",
+        "tick": "Lnet/minecraft/class_310;method_1574()V"
+      },
+      "mcp/mobius/waila/mixin/server/MixinPlayerManager": {
+        "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:grass"
+  },
+  "output": {
+    "item": "minecraft:fern"
+  },
+  "mana": 500,
+  "group": "botania:shrub_cycle",
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

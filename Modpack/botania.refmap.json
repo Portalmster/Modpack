@@ -1,0 +1,274 @@
+{
+  "mappings": {
+    "vazkii/botania/mixin/AccessorAbstractFurnaceTileEntity": {
+      "recipeType": "field_214014_c:Lnet/minecraft/item/crafting/IRecipeType;",
+      "burnTime": "field_214018_j:I",
+      "cookTime": "field_214020_l:I",
+      "canSmelt": "func_214008_b(Lnet/minecraft/item/crafting/IRecipe;)Z"
+    },
+    "vazkii/botania/mixin/AccessorNearestAttackableTarget": {
+      "targetClass": "field_75307_b:Ljava/lang/Class;"
+    },
+    "vazkii/botania/mixin/AccessorWitherEntity": {
+      "getHeadZ": "func_82213_w(I)D",
+      "getHeadX": "func_82214_u(I)D",
+      "getHeadY": "func_82208_v(I)D"
+    },
+    "vazkii/botania/mixin/AccessorItemEntity": {
+      "pickupDelay": "field_145804_b:I",
+      "age": "field_70292_b:I"
+    },
+    "vazkii/botania/mixin/AccessorRenderTypeBuffers": {
+      "fixedBuffers": "field_228480_b_:Ljava/util/SortedMap;"
+    },
+    "vazkii/botania/mixin/AccessorCreeperEntity": {
+      "timeSinceIgnited": "field_70833_d:I"
+    },
+    "vazkii/botania/mixin/AccessorBiomeGeneratorTypeScreens": {
+      "field_239068_c_": "field_239068_c_:Ljava/util/List;"
+    },
+    "vazkii/botania/mixin/AccessorEndPortalTileEntityRenderer": {
+      "RENDER_TYPES": "field_228881_e_:Ljava/util/List;"
+    },
+    "vazkii/botania/mixin/AccessorSkullTileEntityRenderer": {
+      "MODELS": "field_199358_e:Ljava/util/Map;",
+      "getRenderType": "func_228878_a_(Lnet/minecraft/block/SkullBlock$ISkullType;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/client/renderer/RenderType;"
+    },
+    "vazkii/botania/mixin/AccessorFirstPersonRenderer": {
+      "transformSideFirstPerson": "func_228406_b_(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/util/HandSide;F)V",
+      "transformFirstPerson": "func_228399_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/util/HandSide;F)V"
+    },
+    "vazkii/botania/mixin/AccessorItemOverrideList": {
+      "overrideBakedModels": "field_209582_c:Ljava/util/List;"
+    },
+    "vazkii/botania/mixin/MixinPlayerEntity": {
+      "Lnet/minecraft/entity/player/PlayerEntity;getRidingEntity()Lnet/minecraft/entity/Entity;": "Lnet/minecraft/entity/player/PlayerEntity;func_184187_bx()Lnet/minecraft/entity/Entity;",
+      "func_234570_el_": "Lnet/minecraft/entity/player/PlayerEntity;func_234570_el_()Lnet/minecraft/entity/ai/attributes/AttributeModifierMap$MutableAttribute;",
+      "addMountedMovementStat": "Lnet/minecraft/entity/player/PlayerEntity;func_71015_k(DDD)V"
+    },
+    "vazkii/botania/mixin/AccessorWorldRenderer": {
+      "skyVertexFormat": "field_175014_r:Lnet/minecraft/client/renderer/vertex/VertexFormat;",
+      "skyVBO": "field_175012_t:Lnet/minecraft/client/renderer/vertex/VertexBuffer;",
+      "starVBO": "field_175013_s:Lnet/minecraft/client/renderer/vertex/VertexBuffer;"
+    },
+    "vazkii/botania/mixin/AccessorAbstractHorseEntity": {
+      "horseChest": "field_110296_bG:Lnet/minecraft/inventory/Inventory;"
+    },
+    "vazkii/botania/mixin/AccessorFireBlock": {
+      "setFireInfo": "func_180686_a(Lnet/minecraft/block/Block;II)V"
+    },
+    "vazkii/botania/mixin/AccessorRecipeBookPage": {
+      "hoveredButton": "field_194201_b:Lnet/minecraft/client/gui/recipebook/RecipeWidget;"
+    },
+    "vazkii/botania/mixin/AccessorRecipeManager": {
+      "getRecipes": "func_215366_a(Lnet/minecraft/item/crafting/IRecipeType;)Ljava/util/Map;"
+    },
+    "vazkii/botania/mixin/AccessorStats": {
+      "registerCustom": "func_199084_a(Ljava/lang/String;Lnet/minecraft/stats/IStatFormatter;)Lnet/minecraft/util/ResourceLocation;"
+    },
+    "vazkii/botania/mixin/AccessorRenderState": {
+      "field_241712_U_": "field_241712_U_:Lnet/minecraft/client/renderer/RenderState$TargetState;",
+      "field_239235_M_": "field_239235_M_:Lnet/minecraft/client/renderer/RenderState$LayerState;",
+      "TRANSLUCENT_TRANSPARENCY": "field_228515_g_:Lnet/minecraft/client/renderer/RenderState$TransparencyState;",
+      "LIGHTNING_TRANSPARENCY": "field_228512_d_:Lnet/minecraft/client/renderer/RenderState$TransparencyState;"
+    },
+    "vazkii/botania/mixin/AccessorRecipeBookGui": {
+      "recipeBookPage": "field_193022_s:Lnet/minecraft/client/gui/recipebook/RecipeBookPage;"
+    },
+    "vazkii/botania/mixin/MixinEndermanPickupBlock": {
+      "Lnet/minecraft/world/World;getBlockState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/world/World;func_180495_p(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;",
+      "net.minecraft.entity.monster.EndermanEntity$TakeBlockGoal": "net/minecraft/entity/monster/EndermanEntity$TakeBlockGoal",
+      "tick()V": "Lnet/minecraft/entity/monster/EndermanEntity$TakeBlockGoal;func_75246_d()V"
+    },
+    "vazkii/botania/mixin/MixinSkullTileEntityRenderer": {
+      "render(Lnet/minecraft/util/Direction;FLnet/minecraft/block/SkullBlock$ISkullType;Lcom/mojang/authlib/GameProfile;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V": "Lnet/minecraft/client/renderer/tileentity/SkullTileEntityRenderer;func_228879_a_(Lnet/minecraft/util/Direction;FLnet/minecraft/block/SkullBlock$ISkullType;Lcom/mojang/authlib/GameProfile;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V"
+    },
+    "vazkii/botania/mixin/AccessorMinecraft": {
+      "renderPartialTicksPaused": "field_193996_ah:F"
+    },
+    "vazkii/botania/mixin/MixinWorldRenderer": {
+      "Lnet/minecraft/client/world/ClientWorld;getRainStrength(F)F": "Lnet/minecraft/client/world/ClientWorld;func_72867_j(F)F",
+      "renderSky(Lcom/mojang/blaze3d/matrix/MatrixStack;F)V": "Lnet/minecraft/client/renderer/WorldRenderer;func_228424_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;F)V",
+      "Lnet/minecraft/client/renderer/texture/TextureManager;bindTexture(Lnet/minecraft/util/ResourceLocation;)V": "Lnet/minecraft/client/renderer/texture/TextureManager;func_110577_a(Lnet/minecraft/util/ResourceLocation;)V",
+      "Lnet/minecraft/client/world/ClientWorld;getStarBrightness(F)F": "Lnet/minecraft/client/world/ClientWorld;func_228330_j_(F)F",
+      "Lcom/mojang/blaze3d/matrix/MatrixStack;rotate(Lnet/minecraft/util/math/vector/Quaternion;)V": "Lcom/mojang/blaze3d/matrix/MatrixStack;func_227863_a_(Lnet/minecraft/util/math/vector/Quaternion;)V"
+    },
+    "vazkii/botania/mixin/MixinSplashes": {
+      "apply": "Lnet/minecraft/client/util/Splashes;func_212853_a_(Ljava/util/List;Lnet/minecraft/resources/IResourceManager;Lnet/minecraft/profiler/IProfiler;)V"
+    },
+    "vazkii/botania/mixin/AccessorModelBakery": {
+      "LOCATIONS_BUILTIN_TEXTURES": "field_177602_b:Ljava/util/Set;"
+    },
+    "vazkii/botania/mixin/AccessorAbstractSpawner": {
+      "mobRotation": "field_98287_c:D",
+      "spawnDelay": "field_98286_b:I",
+      "func_221409_a": "func_221409_a(Lnet/minecraft/entity/Entity;)V",
+      "resetTimer": "func_98273_j()V",
+      "prevMobRotation": "field_98284_d:D",
+      "maxNearbyEntities": "field_98292_k:I",
+      "spawnData": "field_98282_f:Lnet/minecraft/util/WeightedSpawnerEntity;",
+      "spawnCount": "field_98294_i:I",
+      "isActivated": "func_98279_f()Z",
+      "spawnRange": "field_98290_m:I"
+    },
+    "vazkii/botania/mixin/AccessorDimensionSettingsPreset": {
+      "createSettings": "func_236135_a_(Lnet/minecraft/world/gen/settings/DimensionStructuresSettings;ZLnet/minecraft/world/gen/DimensionSettings$Preset;)Lnet/minecraft/world/gen/DimensionSettings;"
+    },
+    "vazkii/botania/mixin/AccessorMobEntity": {
+      "getAmbientSound": "func_184639_G()Lnet/minecraft/util/SoundEvent;",
+      "deathLootTable": "field_184659_bA:Lnet/minecraft/util/ResourceLocation;"
+    },
+    "vazkii/botania/mixin/AccessorHoeItem": {
+      "HOE_LOOKUP": "field_195973_b:Ljava/util/Map;"
+    },
+    "vazkii/botania/mixin/AccessorLivingEntity": {
+      "activeItemStackUseCount": "field_184628_bn:I"
+    },
+    "vazkii/botania/mixin/AccessorGoalSelector": {
+      "goals": "field_220892_d:Ljava/util/Set;"
+    },
+    "vazkii/botania/mixin/AccessorDispenserBlock": {
+      "DISPENSE_BEHAVIOR_REGISTRY": "field_149943_a:Ljava/util/Map;"
+    },
+    "vazkii/botania/mixin/AccessorAvoidEntityGoal": {
+      "classToAvoid": "field_181064_i:Ljava/lang/Class;"
+    }
+  },
+  "data": {
+    "searge": {
+      "vazkii/botania/mixin/AccessorAbstractFurnaceTileEntity": {
+        "recipeType": "field_214014_c:Lnet/minecraft/item/crafting/IRecipeType;",
+        "burnTime": "field_214018_j:I",
+        "cookTime": "field_214020_l:I",
+        "canSmelt": "func_214008_b(Lnet/minecraft/item/crafting/IRecipe;)Z"
+      },
+      "vazkii/botania/mixin/AccessorNearestAttackableTarget": {
+        "targetClass": "field_75307_b:Ljava/lang/Class;"
+      },
+      "vazkii/botania/mixin/AccessorWitherEntity": {
+        "getHeadZ": "func_82213_w(I)D",
+        "getHeadX": "func_82214_u(I)D",
+        "getHeadY": "func_82208_v(I)D"
+      },
+      "vazkii/botania/mixin/AccessorItemEntity": {
+        "pickupDelay": "field_145804_b:I",
+        "age": "field_70292_b:I"
+      },
+      "vazkii/botania/mixin/AccessorRenderTypeBuffers": {
+        "fixedBuffers": "field_228480_b_:Ljava/util/SortedMap;"
+      },
+      "vazkii/botania/mixin/AccessorCreeperEntity": {
+        "timeSinceIgnited": "field_70833_d:I"
+      },
+      "vazkii/botania/mixin/AccessorBiomeGeneratorTypeScreens": {
+        "field_239068_c_": "field_239068_c_:Ljava/util/List;"
+      },
+      "vazkii/botania/mixin/AccessorEndPortalTileEntityRenderer": {
+        "RENDER_TYPES": "field_228881_e_:Ljava/util/List;"
+      },
+      "vazkii/botania/mixin/AccessorSkullTileEntityRenderer": {
+        "MODELS": "field_199358_e:Ljava/util/Map;",
+        "getRenderType": "func_228878_a_(Lnet/minecraft/block/SkullBlock$ISkullType;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/client/renderer/RenderType;"
+      },
+      "vazkii/botania/mixin/AccessorFirstPersonRenderer": {
+        "transformSideFirstPerson": "func_228406_b_(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/util/HandSide;F)V",
+        "transformFirstPerson": "func_228399_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/util/HandSide;F)V"
+      },
+      "vazkii/botania/mixin/AccessorItemOverrideList": {
+        "overrideBakedModels": "field_209582_c:Ljava/util/List;"
+      },
+      "vazkii/botania/mixin/MixinPlayerEntity": {
+        "Lnet/minecraft/entity/player/PlayerEntity;getRidingEntity()Lnet/minecraft/entity/Entity;": "Lnet/minecraft/entity/player/PlayerEntity;func_184187_bx()Lnet/minecraft/entity/Entity;",
+        "func_234570_el_": "Lnet/minecraft/entity/player/PlayerEntity;func_234570_el_()Lnet/minecraft/entity/ai/attributes/AttributeModifierMap$MutableAttribute;",
+        "addMountedMovementStat": "Lnet/minecraft/entity/player/PlayerEntity;func_71015_k(DDD)V"
+      },
+      "vazkii/botania/mixin/AccessorWorldRenderer": {
+        "skyVertexFormat": "field_175014_r:Lnet/minecraft/client/renderer/vertex/VertexFormat;",
+        "skyVBO": "field_175012_t:Lnet/minecraft/client/renderer/vertex/VertexBuffer;",
+        "starVBO": "field_175013_s:Lnet/minecraft/client/renderer/vertex/VertexBuffer;"
+      },
+      "vazkii/botania/mixin/AccessorAbstractHorseEntity": {
+        "horseChest": "field_110296_bG:Lnet/minecraft/inventory/Inventory;"
+      },
+      "vazkii/botania/mixin/AccessorFireBlock": {
+        "setFireInfo": "func_180686_a(Lnet/minecraft/block/Block;II)V"
+      },
+      "vazkii/botania/mixin/AccessorRecipeBookPage": {
+        "hoveredButton": "field_194201_b:Lnet/minecraft/client/gui/recipebook/RecipeWidget;"
+      },
+      "vazkii/botania/mixin/AccessorRecipeManager": {
+        "getRecipes": "func_215366_a(Lnet/minecraft/item/crafting/IRecipeType;)Ljava/util/Map;"
+      },
+      "vazkii/botania/mixin/AccessorStats": {
+        "registerCustom": "func_199084_a(Ljava/lang/String;Lnet/minecraft/stats/IStatFormatter;)Lnet/minecraft/util/ResourceLocation;"
+      },
+      "vazkii/botania/mixin/AccessorRenderState": {
+        "field_241712_U_": "field_241712_U_:Lnet/minecraft/client/renderer/RenderState$TargetState;",
+        "field_239235_M_": "field_239235_M_:Lnet/minecraft/client/renderer/RenderState$LayerState;",
+        "TRANSLUCENT_TRANSPARENCY": "field_228515_g_:Lnet/minecraft/client/renderer/RenderState$TransparencyState;",
+        "LIGHTNING_TRANSPARENCY": "field_228512_d_:Lnet/minecraft/client/renderer/RenderState$TransparencyState;"
+      },
+      "vazkii/botania/mixin/AccessorRecipeBookGui": {
+        "recipeBookPage": "field_193022_s:Lnet/minecraft/client/gui/recipebook/RecipeBookPage;"
+      },
+      "vazkii/botania/mixin/MixinEndermanPickupBlock": {
+        "Lnet/minecraft/world/World;getBlockState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/world/World;func_180495_p(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;",
+        "net.minecraft.entity.monster.EndermanEntity$TakeBlockGoal": "net/minecraft/entity/monster/EndermanEntity$TakeBlockGoal",
+        "tick()V": "Lnet/minecraft/entity/monster/EndermanEntity$TakeBlockGoal;func_75246_d()V"
+      },
+      "vazkii/botania/mixin/MixinSkullTileEntityRenderer": {
+        "render(Lnet/minecraft/util/Direction;FLnet/minecraft/block/SkullBlock$ISkullType;Lcom/mojang/authlib/GameProfile;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V": "Lnet/minecraft/client/renderer/tileentity/SkullTileEntityRenderer;func_228879_a_(Lnet/minecraft/util/Direction;FLnet/minecraft/block/SkullBlock$ISkullType;Lcom/mojang/authlib/GameProfile;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V"
+      },
+      "vazkii/botania/mixin/AccessorMinecraft": {
+        "renderPartialTicksPaused": "field_193996_ah:F"
+      },
+      "vazkii/botania/mixin/MixinWorldRenderer": {
+        "Lnet/minecraft/client/world/ClientWorld;getRainStrength(F)F": "Lnet/minecraft/client/world/ClientWorld;func_72867_j(F)F",
+        "renderSky(Lcom/mojang/blaze3d/matrix/MatrixStack;F)V": "Lnet/minecraft/client/renderer/WorldRenderer;func_228424_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;F)V",
+        "Lnet/minecraft/client/renderer/texture/TextureManager;bindTexture(Lnet/minecraft/util/ResourceLocation;)V": "Lnet/minecraft/client/renderer/texture/TextureManager;func_110577_a(Lnet/minecraft/util/ResourceLocation;)V",
+        "Lnet/minecraft/client/world/ClientWorld;getStarBrightness(F)F": "Lnet/minecraft/client/world/ClientWorld;func_228330_j_(F)F",
+        "Lcom/mojang/blaze3d/matrix/MatrixStack;rotate(Lnet/minecraft/util/math/vector/Quaternion;)V": "Lcom/mojang/blaze3d/matrix/MatrixStack;func_227863_a_(Lnet/minecraft/util/math/vector/Quaternion;)V"
+      },
+      "vazkii/botania/mixin/MixinSplashes": {
+        "apply": "Lnet/minecraft/client/util/Splashes;func_212853_a_(Ljava/util/List;Lnet/minecraft/resources/IResourceManager;Lnet/minecraft/profiler/IProfiler;)V"
+      },
+      "vazkii/botania/mixin/AccessorModelBakery": {
+        "LOCATIONS_BUILTIN_TEXTURES": "field_177602_b:Ljava/util/Set;"
+      },
+      "vazkii/botania/mixin/AccessorAbstractSpawner": {
+        "mobRotation": "field_98287_c:D",
+        "spawnDelay": "field_98286_b:I",
+        "func_221409_a": "func_221409_a(Lnet/minecraft/entity/Entity;)V",
+        "resetTimer": "func_98273_j()V",
+        "prevMobRotation": "field_98284_d:D",
+        "maxNearbyEntities": "field_98292_k:I",
+        "spawnData": "field_98282_f:Lnet/minecraft/util/WeightedSpawnerEntity;",
+        "spawnCount": "field_98294_i:I",
+        "isActivated": "func_98279_f()Z",
+        "spawnRange": "field_98290_m:I"
+      },
+      "vazkii/botania/mixin/AccessorDimensionSettingsPreset": {
+        "createSettings": "func_236135_a_(Lnet/minecraft/world/gen/settings/DimensionStructuresSettings;ZLnet/minecraft/world/gen/DimensionSettings$Preset;)Lnet/minecraft/world/gen/DimensionSettings;"
+      },
+      "vazkii/botania/mixin/AccessorMobEntity": {
+        "getAmbientSound": "func_184639_G()Lnet/minecraft/util/SoundEvent;",
+        "deathLootTable": "field_184659_bA:Lnet/minecraft/util/ResourceLocation;"
+      },
+      "vazkii/botania/mixin/AccessorHoeItem": {
+        "HOE_LOOKUP": "field_195973_b:Ljava/util/Map;"
+      },
+      "vazkii/botania/mixin/AccessorLivingEntity": {
+        "activeItemStackUseCount": "field_184628_bn:I"
+      },
+      "vazkii/botania/mixin/AccessorGoalSelector": {
+        "goals": "field_220892_d:Ljava/util/Set;"
+      },
+      "vazkii/botania/mixin/AccessorDispenserBlock": {
+        "DISPENSE_BEHAVIOR_REGISTRY": "field_149943_a:Ljava/util/Map;"
+      },
+      "vazkii/botania/mixin/AccessorAvoidEntityGoal": {
+        "classToAvoid": "field_181064_i:Ljava/lang/Class;"
+      }
+    }
+  }
+}

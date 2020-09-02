@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:gravel"
+  },
+  "output": {
+    "item": "minecraft:gravel",
+    "count": 2
+  },
+  "mana": 720,
+  "catalyst": {
+    "name": "botania:conjuration_catalyst"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "botania:blaze_quartz"
+  },
+  "output": {
+    "item": "botania:quartz_blaze",
+    "count": 4
+  },
+  "mana": 25,
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:blaze_rod"
+  },
+  "output": {
+    "item": "minecraft:nether_wart"
+  },
+  "mana": 4000,
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

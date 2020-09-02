@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: 1.16
+Implementation-Version: 1.0.9-b3
+Specification-Vendor: wilechaote
+Specification-Title: engineerstools
+Implementation-Timestamp: 2020-08-01T18:49:34+0200
+Specification-Version: 1
+Implementation-Vendor: wilechaote
+

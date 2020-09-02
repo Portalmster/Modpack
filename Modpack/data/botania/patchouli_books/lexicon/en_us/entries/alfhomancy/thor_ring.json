@@ -1,0 +1,13 @@
+{
+  "name": "botania.entry.thorRing",
+  "category": "botania:alfhomancy",
+  "icon": "botania:thor_ring",
+  "entry_color": "aa00aa",
+  "advancement": "botania:challenge/thor_ring",
+  "pages": [
+    {
+      "type": "text",
+      "text": "botania.page.thorRing0"
+    }
+  ]
+}

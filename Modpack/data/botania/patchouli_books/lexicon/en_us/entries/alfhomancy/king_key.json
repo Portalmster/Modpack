@@ -1,0 +1,13 @@
+{
+  "name": "botania.entry.kingKey",
+  "category": "botania:alfhomancy",
+  "icon": "botania:king_key",
+  "entry_color": "aa00aa",
+  "advancement": "botania:challenge/king_key",
+  "pages": [
+    {
+      "type": "text",
+      "text": "botania.page.kingKey0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "output": {
+    "item": "minecraft:leather"
+  },
+  "mana": 600,
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

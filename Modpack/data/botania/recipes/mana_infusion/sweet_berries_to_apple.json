@@ -1,0 +1,14 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:sweet_berries"
+  },
+  "output": {
+    "item": "minecraft:apple"
+  },
+  "mana": 240,
+  "group": "botania:berry_cycle",
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}
